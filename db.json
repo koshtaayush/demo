@@ -1,8 +1,20 @@
 {
   "people":[
-    {
-      "id":0,
-      "name":"John"
+     {
+      "id": "61c9665f-3c08-45ec-88d3-5029af3269c8", // uuid v4
+      "name": "Developer-friendly hotel", // string
+      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", // string
+      "distance_to_venue": 800, // integer (in meters)
+      "rating": 4.6, // float (0 - 5)
+      "price_category": "medium", // string ['low', 'medium', 'high']
+      // array of strings ['free_parking','free_wifi','pets','restaurant','gym','pool','spa']
+      "amenities": ["free_parking", "free_wifi"],
+      // array of strings (first url is considered to be the "main" image showing the hotel)
+      "images": [
+      "http://via.placeholder.com/140x100",
+      "http://via.placeholder.com/100x140",
+      "http://via.placeholder.com/140x140"
+      ]
     }
   ]
 }
