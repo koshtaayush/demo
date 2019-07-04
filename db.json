@@ -1,13 +1,14 @@
 {
-  "hotelList": [
-    {
-      "id": "61c9665f-3c08-45ec-88d3-5029af3269c8",
-      "name": "Developer-friendly hotel", 
-      "description": "Lorem ipsum dolor sit amet, consetetur sadipscing elitr.", 
-      "distance_to_venue": 800,
-      "rating": 4.6,
-      "price_category": "medium",
-      "amenities": ["free_parking", "free_wifi"],
-    }
-  ]
+  "posts": [
+    { "id": 1, "title": "Post 1" },
+    { "id": 2, "title": "Post 2" },
+    { "id": 3, "title": "Post 3" }
+  ],
+  "comments": [
+    { "id": 1, "body": "some comment", "postId": 1 },
+    { "id": 2, "body": "some comment", "postId": 1 }
+  ],
+  "profile": {
+    "name": "typicode"
+  }
 }
