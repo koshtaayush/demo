@@ -1,4 +1,5 @@
-"hotelList": [
+{
+  "hotelList": [
   {
     "id": "61c9665f-3c08-45ec-88d3-5029af3269c8",
     "name": "Developer-friendly hotel", 
@@ -14,3 +15,4 @@
     ]
   }
 ]
+}
